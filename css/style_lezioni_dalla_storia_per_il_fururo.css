@@ -1,0 +1,406 @@
+/* Reset impostazioni del browser */
+:root {
+    --primary-color-nav: #FF9966;
+    --primary-color-text-navbar: rgb(8, 8, 121);
+    --primary-color-text:  #1B3280;
+    --primary-color-border: #FFCC99;
+    --primary-color-background-html: white;
+    --primary-color-background-header: #FFE5B8;
+    --primary-color-background-body: linear-gradient(#FFF3D6, #FFF3D9);
+    --primary-color-background-footer: linear-gradient(#FFF3D9, #e9c46d);
+    --primary-color-background-container: #FFFFCC;
+    --primary-color-background-border: rgb(0, 217, 255);
+    --primary-color-container-border: #1B3280;
+    --primary-font:  font-family: verdana;
+    --primary-fontsize-h1: 44pt;
+    --primary-font-size-h3: 18pt;
+    --primary-size-text-navbar: 12pt;
+    --primary-size-text: 12pt;
+    --primary-size-text-altri-articoli: 12pt;
+    --primary-font-family-footer: font-family: sans-serif;
+    --primary-font-size-footer: 12pt;
+}
+
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+
+/* Chiusura reset impostazioni del browser */
+
+
+/* Installazione font */
+
+@font-face {
+    font-family: Miofont;
+    src: url(../fonts/Moonday.ttf);
+
+}
+
+/* Installare un nuovo font */
+
+html {
+    width: 80%;
+    height: 3500px;
+    /*background-color: var(--primary-color-background-html);*/
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../immagini/Sfondo_HTML_sostenibilità_2.png);
+
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: var(--primary-color-background-body);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#back_home {
+    float: inline-end;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color-background-header);
+    border: solid 1px var(--primary-color-border);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    
+    background-color: var(--primary-color-nav);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: middle;
+}
+
+nav ul {
+    width: 100%;
+    
+
+}
+
+nav .indice li {
+    display: inline-block;
+    list-style: none;
+    padding: 1%;
+    
+
+}
+
+
+nav .indice li a {
+    font-family: sans-serif;
+    font-size: var(--primary-size-text-navbar);
+    top: 2%;
+    position: relative;
+    color: var(--primary-color-text-navbar);
+    
+
+}   
+
+nav .indice li .active {
+
+    background-color: var(--primary-color-border);
+    
+}
+
+
+h1 {
+    font-family: Miofont;
+    font-size: var(--primary-fontsize-h1);
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primary-color-text);
+}
+
+.Foto1 {
+    width: 30%;
+    height: 350px;
+    margin-left: 2%; 
+    padding: 1%;
+}
+
+.Foto4 {
+    width: 30%;
+    height: 350px;
+    padding: 1%;
+}
+
+.Foto5 {
+    width: 30%;
+    height: 350px;
+    padding: 1%;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    text-align: center;
+    color: var(--primary-color-text);
+    font-size: 16pt;
+}
+
+
+.sostenibilità_economica {
+    margin-left: 2%;
+    text-align: justify;
+    margin-right: 2%;
+}
+
+
+.povertà p, .impoverimento p {
+    
+    display: inline-block;
+    width: 47%;
+    margin: 1%;
+    
+     }
+
+.medioevo {
+    margin-top: 1%;
+    text-align: justify;
+    width: 47%;
+    margin-left: 2%;
+  }
+  
+.oggi {
+    margin-top: 1%;
+    margin-left: 2%;
+    text-align: justify;
+    width: 47%;
+    margin-right: 2%;
+  }
+
+.impoverimento p {
+    margin-top: 1%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+
+.natura {
+    margin-top: 1%;
+    margin-left: 2%;
+    text-align: justify;
+    margin-right: 2%;
+}
+
+.Foto2 {
+    width: 46%;
+    height: 300px;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+.Foto3  {
+    width: 46%;
+    height: 300px;
+    margin-right: 2%;
+    padding: 1%;
+}
+
+
+
+
+h3 {
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.Video {
+    padding: 3%;
+}
+
+
+.ambiente {
+    margin-top: 1%;
+    text-align: justify;
+    margin-left: 2%;
+  }
+
+.immagineambiente {
+    width: 46%;
+    height: 450px;
+    margin-right: 2%;
+    float: inline-end;
+    margin-left: 2%;
+    
+}
+.ambiente2 {
+    text-align: justify;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+  }
+
+.leggi {
+    text-align: justify;
+    margin-top: 1%;
+    margin-left: 50%;
+    margin-right: 2%;
+    
+    
+}
+.normative {
+    float: left;
+    margin-top: 1%;
+    width: 46%;
+    height: 450px;
+    margin-left: 2%;
+}
+
+.Conclusione {
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    
+}
+
+#conclusione {
+    margin-top: 5%;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background: var(--primary-color-background-footer);
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--primary-font-family-footer);
+    font-size: var(--primary-font-size-footer);
+    color: var(--primary-color-text);
+}
+
+footer div {
+    width: 25%;
+
+}
+
+footer #autori {
+    text-align: left;
+    margin-top: 3%;
+}
+
+footer #contatti {
+    text-align: center;
+    margin-top: 3%;
+}
+
+footer #indirizzo {
+    
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+
+footer #indirizzo img {
+    
+    height: 90%;
+}
+
+footer #indirizzo #indirizzo_descrizione {
+    width: 50%;
+    margin-top: 13%;
+}
+
+/* Aggiunta Media Query per dispositivi con larghezza max 768px */
+@media screen and (max-width: 768px) {
+    html {
+        width: 100%;
+        background-size: cover;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    nav .indice li {
+        display: block;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .Foto1, .Foto2, .Foto3, .Foto4, .Foto5,
+    .immagineambiente, .normative {
+        width: 90% !important;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+        float: none;
+    }
+
+    .povertà p,
+    .impoverimento p,
+    .medioevo,
+    .oggi {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .leggi {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    footer div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    footer #indirizzo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer #indirizzo #indirizzo_descrizione {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer #indirizzo img {
+        width: 60%;
+        height: auto;
+    }
+}
