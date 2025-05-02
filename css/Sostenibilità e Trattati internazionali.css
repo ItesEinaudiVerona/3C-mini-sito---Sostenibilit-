@@ -1,0 +1,274 @@
+/* Reset impostazioni del browser */
+:root {
+    --primary-color-nav: #FF9966;
+    --primary-color-text-navbar: rgb(8, 8, 121);
+    --primary-color-text:  #1B3280;
+    --primary-color-border: #FFCC99;
+    --primary-color-background-html: white;
+    --primary-color-background-header: #FFE5B8;
+    --primary-color-background-body: linear-gradient(#FFF3D6, #FFF3D9);
+    --primary-color-background-footer: linear-gradient(#FFF3D9, #e9c46d);
+    --primary-color-background-container: #FFFFCC;
+    --primary-color-background-border: rgb(0, 217, 255);
+    --primary-color-container-border: #1B3280;
+    --primary-font:  font-family: verdana;
+    --primary-fontsize-h1: 44pt;
+    --primary-font-size-h3: 18pt;
+    --primary-size-text-navbar: 12pt;
+    --primary-size-text: 12pt;
+    --primary-size-text-altri-articoli: 12pt;
+    --primary-font-family-footer: font-family: sans-serif;
+    --primary-font-size-footer: 12pt;
+}
+
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+/* Chiusura reset impostazioni del browser */
+
+
+/* Installazione font */
+
+@font-face {
+    font-family: Miofont;
+    src: url(../fonts/Moonday.ttf);
+
+}
+
+/* Installare un nuovo font */
+
+html {
+    width: 80%;
+    height: 3500px;
+    /*background-color: var(--primary-color-background-html);*/
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../immagini/backround.jpg);
+
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: var(--primary-color-background-body);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21;
+   
+}
+
+
+#back_home {
+    float: inline-end;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color-background-header);
+    border: solid 1px var(--primary-color-border);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    
+    background-color: var(--primary-color-nav);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: middle;
+}
+
+nav ul {
+    width: 100%;
+    
+
+}
+
+nav .indice li {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    
+
+}
+
+nav .indice li a {
+    font-family: sans-serif;
+    font-size: var(--primary-size-text-navbar);
+    top: 2%;
+    position: relative;
+    color: var(--primary-color-text-navbar);
+    padding: 2 1;
+
+}   
+
+h1 {
+    font-family: Miofont;
+    font-size: var(--primary-fontsize-h1);
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primary-color-text);
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background: var(--primary-color-background-footer);
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--primary-font-family-footer);
+    font-size: var(--primary-font-size-footer);
+    color: var(--primary-color-text);
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
+footer div {
+    width: 100%;
+    margin: 1% 4%;
+
+}
+
+footer #autori {
+    width: 30%;
+    text-align: left;
+    margin-top: 1%;
+    overflow: auto;
+
+}
+
+footer #contatti {
+    width: 30%;
+    text-align: center;
+    margin-top: 1%;
+    overflow: auto;
+
+}
+
+footer #indirizzo {
+    width: 30%;
+    display: flex;
+    text-align: right;
+    justify-content: space-around;
+    overflow: auto;
+
+}
+
+
+footer #indirizzo #indirizzo_descrizione {
+    width: 75%;
+}
+
+footer #indirizzo #indirizzo_descrizione img {
+   float: left;
+}
+
+
+
+#altri_articoli p, ol li, ul li {
+    list-style-type: "- ";
+    padding: 0;
+    margin: 1% 2%;
+    color: var(--primary-color-text);
+    font: var(--primary-font);
+    font-size: var(--primary-size-text-altri-articoli);
+    text-align: justify;
+   
+}
+
+.section {
+    background: transparent;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: none;
+  }
+  
+  .section img {
+    width: 35%; 
+    max-width: 480px; 
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .immagine-sinistra img {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .immagine-destra img {
+    float: right;
+    margin-left: 20px;
+  }
+  
+  .testo-centro {
+    text-align: center;
+  }
+  
+ 
+  
+  .testo {
+    overflow: hidden;
+  }
+  
+  .protocollo-kyoto .testo h2 {
+    text-align: right;
+    width: 100%;
+    display: block;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+  
+  h2 {
+    font-family: Miofont, cursive;
+    font-size: 30pt;
+    color: var(--primary-color-text);
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-family: verdana, sans-serif;
+    font-size: var(--primary-font-size-h3);
+    color: var(--primary-color-text);
+    margin-bottom: 10px;
+  }
+  
+  
+  .section p,
+  .section ul li {
+    font: var(--primary-font);
+    font-size: var(--primary-size-text);
+    color: var(--primary-color-text);
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
+  .section ul {
+    margin-left: 25px;
+    list-style-type: disc;
+  }
+
+  
+ 
