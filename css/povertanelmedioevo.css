@@ -1,0 +1,198 @@
+h2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    color: var(--primary-color-text);
+    margin-top: 2%;
+}
+
+.Introduzione {
+    padding: 2%;
+    text-align: justify;
+    
+}
+
+.Paragrafo1 {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.Immagine1 {
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.Paragrafo2{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Cittadini{
+    display: inline-block;
+    display: inline-flex;
+    margin-top: 2%;
+}
+
+.Classisociali{
+    margin-left: 1%;
+    text-align: left;
+    width: 50%;
+    margin-top: 8%;
+}
+
+
+.Immagine4{
+    width: 50%;
+    height: 250px;
+    margin-left: 2%;
+}
+
+.Malattie {
+display: inline-block;
+display: inline-flex;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+
+.Lebbra {
+width: 47%;
+margin-left: 2%;
+text-align: justify;
+}
+
+.Immagine2 {
+    width: 47%;
+    margin-left: 2%;
+}
+
+
+.Peste {
+    text-align: justify;
+    width: 47%;
+    margin-right: 2%;
+    margin-left: 2%;
+    
+}
+
+.Immagine3 {
+    width: 47%;
+    height: 340px;
+    margin-left: 2%;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background: var(--primary-color-background-footer);
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--primary-font-family-footer);
+    font-size: var(--primary-font-size-footer);
+    color: var(--primary-color-text);
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
+footer div {
+    width: 100%;
+    margin: 1% 4%;
+
+}
+
+footer #autori {
+    width: 30%;
+    text-align: left;
+    margin-top: 1%;
+    overflow: auto;
+
+}
+
+footer #contatti {
+    width: 30%;
+    text-align: center;
+    margin-top: 1%;
+    overflow: auto;
+
+}
+
+footer #indirizzo {
+    width: 30%;
+    display: flex;
+    text-align: right;
+    justify-content: space-around;
+    overflow: auto;
+
+}
+
+
+footer #indirizzo #indirizzo_descrizione {
+    width: 75%;
+}
+
+footer #indirizzo #indirizzo_descrizione img {
+   float: left;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .indice li {
+        display: block;
+        margin: 5px 0;
+	text-align: center;
+    }
+
+    #primo_articolo,
+    #altri_articoli {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    #primo_articolo figure,
+    #primo_articolo .descrizionePrimoArticolo,
+    #altri_articoli #altri_articoli_sinistra,
+    #altri_articoli #altri_articoli_centro,
+    #altri_articoli #altri_articoli_destra {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #primo_articolo .descrizionePrimoArticolo img {
+        position: static;
+        margin: 10px auto;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer #autori,
+    footer #contatti,
+    footer #indirizzo {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    footer #indirizzo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html {
+        width: 95%;
+    }
+}

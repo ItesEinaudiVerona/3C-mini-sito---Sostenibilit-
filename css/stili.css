@@ -114,6 +114,11 @@ nav .indice li a {
     color: var(--primary-color-text-navbar);
 
 }   
+nav .indice li .active {
+
+    background-color: var(--primary-color-border);
+    
+  }
 
 h1 {
     font-family: Miofont;

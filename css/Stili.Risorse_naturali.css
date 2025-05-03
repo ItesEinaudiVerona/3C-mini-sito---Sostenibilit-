@@ -1,0 +1,167 @@
+
+
+h1 {
+    font-family: Miofont;
+    font-size: var(--primary-fontsize-h1);
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primary-color-text);
+}
+
+h3 {
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    text-align: center;
+    color: var(--primary-color-text);
+    font-size: var(--primary-font-size-h3);
+}
+
+.imgcentrale{
+    padding: 10px;
+    float: left;
+}
+
+.stili_vita_ecosistemi{
+    padding: 10px;
+    text-align: justify;
+}
+
+
+.sostenibilità{
+    width: 290px;
+    height: 230px;
+    
+}
+
+.povertà_sostenibilità{
+    text-align: justify;
+    
+
+}
+
+.sfruttamento{
+    padding: 10px;
+    float: right; 
+}
+
+.testo_sfruttamento{
+    padding: 10px;
+    text-align: justify;
+}
+
+.imgdisuguaglianze {
+    width: 60%;
+    height: 30%;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: var(--primary-color-background-footer);
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--primary-font-family-footer);
+    font-size: var(--primary-font-size-footer);
+    color: var(--primary-color-text);
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
+footer div {
+    width: 100%;
+    margin: 1% 4%;
+
+}
+
+footer #autori {
+    width: 30%;
+    text-align: left;
+    margin-top: 1%;
+    overflow: auto;
+
+}
+
+footer #contatti {
+    width: 30%;
+    text-align: center;
+    margin-top: 1%;
+    overflow: auto;
+
+}
+
+footer #indirizzo {
+    width: 30%;
+    display: flex;
+    text-align: right;
+    justify-content: space-around;
+    overflow: auto;
+
+}
+
+
+footer #indirizzo #indirizzo_descrizione {
+    width: 75%;
+}
+
+footer #indirizzo #indirizzo_descrizione img {
+   float: left;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .indice li {
+        display: block;
+        margin: 5px 0;
+	text-align: center;
+    }
+
+    #primo_articolo,
+    #altri_articoli {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    #primo_articolo figure,
+    #primo_articolo .descrizionePrimoArticolo,
+    #altri_articoli #altri_articoli_sinistra,
+    #altri_articoli #altri_articoli_centro,
+    #altri_articoli #altri_articoli_destra {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #primo_articolo .descrizionePrimoArticolo img {
+        position: static;
+        margin: 10px auto;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer #autori,
+    footer #contatti,
+    footer #indirizzo {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    footer #indirizzo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html {
+        width: 95%;
+    }
+}
+
